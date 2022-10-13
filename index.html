@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caça Palavras</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script type="text/javascript" src="javascript/javascript.js"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <h1>Caça-Palavras</h1>
+        <form>
+            <span id="texto">Selecionar tema:</span>
+            <select name="temaSelect" id="temaSelect">
+                <option value="Animais">Animais</option>
+                <option value="Cores">Cores</option>
+                <option value="Formas">Formas Geométricas</option>
+            </select>
+            <br><br>
+
+            <button class="button-46" type="button" onClick="Gerar()" id="btn">Gerar Caça-Palavras</button>
+            
+            <table id="output">
+            </table>
+        </form>
+    </div>
+
+</body>
+
+</html>

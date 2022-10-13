@@ -1,0 +1,76 @@
+body {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    padding-bottom: 50px;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+table {
+    background-color: rgb(255, 255, 255);
+    border-collapse: collapse;
+    border-radius: 50px;
+}
+
+td {
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+td.selected {
+    background-color: #700759;
+}
+
+
+#temaSelect {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.button-46 {
+    align-items: center;
+    background-color: rgba(240, 240, 240, 0.26);
+    border: 1px solid #DFDFDF;
+    border-radius: 16px;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: flex;
+    font-family: Inter, sans-serif;
+    font-size: 5px;
+    justify-content: center;
+    line-height: 28px;
+    width: 200px;
+    padding: 5px 5px;
+    text-decoration: none;
+    transition: all .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-46:active,
+.button-46:hover {
+    outline: 0;
+}
+
+.button-46:hover {
+    background-color: #FFFFFF;
+    border-color: rgba(0, 0, 0, 0.19);
+}
+
+@media (min-width: 768px) {
+    .button-46 {
+        font-size: 15px;
+        padding: 5px 5px;
+    }
+}
